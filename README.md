@@ -3,3 +3,8 @@ This project consist of simulation about The Great Mr P's journey to eat all ava
 
 ## So far
 The project is still very early stage and contribution is really welcomed
+
+### Play the sims
+```console
+npm run serve
+```
