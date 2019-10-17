@@ -1,26 +1,5 @@
-# pacman
+# Simple Pacman Simulator
+This project consist of simulation about The Great Mr P's journey to eat all available dinner, while avoid enemies at the same time
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+## So far
+The project is still very early stage and contribution is really welcomed
