@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <table>
-    <tr v-for="(el, index) in rawWorld" :key="index">
-      <td v-for="(char, charIndex) in el" :key="charIndex">{{ char }}</td>
-    </tr>
+      <tr v-for="(el, index) in rawWorld" :key="index">
+        <td v-for="(char, charIndex) in el" :key="charIndex">{{ char }}</td>
+      </tr>
     </table>
   </div>
 </template>
@@ -46,10 +46,15 @@ export default {
 <style>
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  line-height: 14px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #1A202C;
+  margin-top: 0;
+}
+table {
+  width: 480px;
+  margin: 0 auto 0 auto;
 }
 </style>
